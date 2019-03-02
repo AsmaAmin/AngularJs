@@ -1,0 +1,131 @@
+﻿<!DOCTYPE html>
+<html ng-app="myapp">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="bootstrap.min.css" rel="stylesheet" />
+</head>
+<body ng-controller="evctrl">
+    <script src="jquery.min.js"></script>
+    <script src="angular.min.js"></script>
+    <script>
+        angular.module("myapp", [])
+            .controller("evctrl", function ($scope, $http) {
+                $scope.Games = [];
+                $scope.newgame = {};
+                $scope.isedit = false;
+               
+                $http.get("http://localhost:62933/api/GameApi")
+                    .then(function (data) {
+                        // console.log(data);
+                        $scope.Games = data.data;
+
+                    }, function (er) {
+                        console.log(er);
+                    })
+                $scope.Edit = function (id) {
+                    $http.get("http://localhost:62933/api/GameApi/" + id)
+                        .then(function (data) {
+                            $scope.isedit = true;
+                            $scope.newgame = data.data;
+                            //console.log($scope.newgame);
+
+                        }, function (er) {
+                            console.log(er);
+
+                        })
+
+                }
+
+                $scope.Delete = function (id) {
+                    const i = id;
+                    $http.delete("http://localhost:62933/api/GameApi/" + id)
+                        .then(function (data) {
+                            $scope.Games = data.data;
+
+                        }, function (er) {
+                            console.log(er);
+
+                        })
+
+                }
+
+                $scope.Update = function () {
+                    $http.put("http://localhost:62933/api/GameApi", $scope.newgame)
+                        .then(function (data) {
+                            $scope.Games = data.data;
+                            $scope.newgame = {};
+
+                            $scope.isedit = false;
+                        }, function (er) {
+                            console.log(er);
+
+                        })
+                }
+
+                $scope.Save = function () {
+                    $http.post("http://localhost:62933/api/GameApi", $scope.newgame)
+                        .then(function (data) {
+                            $scope.newgame = {};
+                            $scope.Games.push(data.data);
+
+                        }, function (er) {
+                            console.log(er);
+                        })
+
+                }
+
+            })
+    </script>
+   
+
+    <div class="row">
+       
+        <div class="col-md-6">
+            <form name="mf">
+                <div class="form-group">
+                    <label>Id</label>
+                    <input type="text" ng-model="newgame.id" class="form-control" disabled />
+                </div>
+                <div class="form-group">
+                    <label>Name</label>
+                    <input type="text" ng-model="newgame.name" class="form-control" name="name" required  />
+                 
+
+
+
+                </div>
+                <div class="form-group">
+                    <input type="button" class="btn btn-primary" value="Save" ng-click="Save()" ng-show="!isedit" />
+                    <input type="button" class="btn btn-info" value="Update" ng-click="Update()" ng-show="isedit" />
+
+                </div>
+            </form>
+        </div>
+
+
+        <div class="col-md-6">
+            <h3>Game Info</h3>
+            <table class="table table-bordered">
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Option</th>
+                </tr>
+                <tr ng-repeat="g in Games">
+                    <td>{{g.id}}</td>
+                    <td>{{g.name}}</td>
+
+                    <td>
+                        <input type="button" value="Edit" ng-click="Edit(g.id)" />
+                        <input type="button" value="Delete" ng-click="Delete(g.id)" />
+                    </td>
+
+                </tr>
+            </table>
+
+        </div>
+    </div>
+
+</body>
+</html>

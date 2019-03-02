@@ -1,0 +1,14 @@
+﻿[
+  {
+    "outputFileName": "wwwroot/bootstrap.css",
+    "inputFiles": [ "node_modules/bootstrap/dist/css/bootstrap.css" ]
+  },
+  {
+    "outputFileName": "wwwroot/jquery.js",
+    "inputFiles": [ "node_modules/jquery/dist/jquery.js" ]
+  },
+  {
+    "outputFileName": "wwwroot/angular.js",
+    "inputFiles": [ "node_modules/angular/angular.js" ]
+  }
+]

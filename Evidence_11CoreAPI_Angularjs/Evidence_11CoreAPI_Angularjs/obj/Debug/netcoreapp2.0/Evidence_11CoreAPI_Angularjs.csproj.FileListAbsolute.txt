@@ -1,0 +1,22 @@
+E:\IDB\11th Exam\My work\Evidence_11\Evidence_11CoreAPI_Angularjs\Evidence_11CoreAPI_Angularjs\bin\Debug\netcoreapp2.0\Evidence_11CoreAPI_Angularjs.deps.json
+E:\IDB\11th Exam\My work\Evidence_11\Evidence_11CoreAPI_Angularjs\Evidence_11CoreAPI_Angularjs\bin\Debug\netcoreapp2.0\Evidence_11CoreAPI_Angularjs.runtimeconfig.json
+E:\IDB\11th Exam\My work\Evidence_11\Evidence_11CoreAPI_Angularjs\Evidence_11CoreAPI_Angularjs\bin\Debug\netcoreapp2.0\Evidence_11CoreAPI_Angularjs.runtimeconfig.dev.json
+E:\IDB\11th Exam\My work\Evidence_11\Evidence_11CoreAPI_Angularjs\Evidence_11CoreAPI_Angularjs\bin\Debug\netcoreapp2.0\Evidence_11CoreAPI_Angularjs.dll
+E:\IDB\11th Exam\My work\Evidence_11\Evidence_11CoreAPI_Angularjs\Evidence_11CoreAPI_Angularjs\bin\Debug\netcoreapp2.0\Evidence_11CoreAPI_Angularjs.pdb
+E:\IDB\11th Exam\My work\Evidence_11\Evidence_11CoreAPI_Angularjs\Evidence_11CoreAPI_Angularjs\obj\Debug\netcoreapp2.0\Evidence_11CoreAPI_Angularjs.csprojAssemblyReference.cache
+E:\IDB\11th Exam\My work\Evidence_11\Evidence_11CoreAPI_Angularjs\Evidence_11CoreAPI_Angularjs\obj\Debug\netcoreapp2.0\Evidence_11CoreAPI_Angularjs.csproj.CoreCompileInputs.cache
+E:\IDB\11th Exam\My work\Evidence_11\Evidence_11CoreAPI_Angularjs\Evidence_11CoreAPI_Angularjs\obj\Debug\netcoreapp2.0\Evidence_11CoreAPI_Angularjs.AssemblyInfoInputs.cache
+E:\IDB\11th Exam\My work\Evidence_11\Evidence_11CoreAPI_Angularjs\Evidence_11CoreAPI_Angularjs\obj\Debug\netcoreapp2.0\Evidence_11CoreAPI_Angularjs.AssemblyInfo.cs
+E:\IDB\11th Exam\My work\Evidence_11\Evidence_11CoreAPI_Angularjs\Evidence_11CoreAPI_Angularjs\obj\Debug\netcoreapp2.0\Evidence_11CoreAPI_Angularjs.dll
+E:\IDB\11th Exam\My work\Evidence_11\Evidence_11CoreAPI_Angularjs\Evidence_11CoreAPI_Angularjs\obj\Debug\netcoreapp2.0\Evidence_11CoreAPI_Angularjs.pdb
+I:\Evidence_11\Evidence_11CoreAPI_Angularjs\Evidence_11CoreAPI_Angularjs\bin\Debug\netcoreapp2.0\Evidence_11CoreAPI_Angularjs.deps.json
+I:\Evidence_11\Evidence_11CoreAPI_Angularjs\Evidence_11CoreAPI_Angularjs\bin\Debug\netcoreapp2.0\Evidence_11CoreAPI_Angularjs.runtimeconfig.json
+I:\Evidence_11\Evidence_11CoreAPI_Angularjs\Evidence_11CoreAPI_Angularjs\bin\Debug\netcoreapp2.0\Evidence_11CoreAPI_Angularjs.runtimeconfig.dev.json
+I:\Evidence_11\Evidence_11CoreAPI_Angularjs\Evidence_11CoreAPI_Angularjs\bin\Debug\netcoreapp2.0\Evidence_11CoreAPI_Angularjs.dll
+I:\Evidence_11\Evidence_11CoreAPI_Angularjs\Evidence_11CoreAPI_Angularjs\bin\Debug\netcoreapp2.0\Evidence_11CoreAPI_Angularjs.pdb
+I:\Evidence_11\Evidence_11CoreAPI_Angularjs\Evidence_11CoreAPI_Angularjs\obj\Debug\netcoreapp2.0\Evidence_11CoreAPI_Angularjs.csproj.CoreCompileInputs.cache
+I:\Evidence_11\Evidence_11CoreAPI_Angularjs\Evidence_11CoreAPI_Angularjs\obj\Debug\netcoreapp2.0\Evidence_11CoreAPI_Angularjs.AssemblyInfoInputs.cache
+I:\Evidence_11\Evidence_11CoreAPI_Angularjs\Evidence_11CoreAPI_Angularjs\obj\Debug\netcoreapp2.0\Evidence_11CoreAPI_Angularjs.AssemblyInfo.cs
+I:\Evidence_11\Evidence_11CoreAPI_Angularjs\Evidence_11CoreAPI_Angularjs\obj\Debug\netcoreapp2.0\Evidence_11CoreAPI_Angularjs.dll
+I:\Evidence_11\Evidence_11CoreAPI_Angularjs\Evidence_11CoreAPI_Angularjs\obj\Debug\netcoreapp2.0\Evidence_11CoreAPI_Angularjs.pdb
+I:\Evidence_11\Evidence_11CoreAPI_Angularjs\Evidence_11CoreAPI_Angularjs\obj\Debug\netcoreapp2.0\Evidence_11CoreAPI_Angularjs.csprojAssemblyReference.cache
